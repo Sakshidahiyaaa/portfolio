@@ -163,7 +163,7 @@ span{
 .btn{
     display: inline-block;
    
-    padding: 1rem 2.8rem;
+    padding: 1rem 3.8rem;
     background: var(--main-color);
     border-radius: 4rem;
     box-shadow: 0 0 1rem var(--main-color);
@@ -578,6 +578,79 @@ section{
 
             width: 100%;
         }
+    }
+
+
+    .portfolio-box img {
+        width: 100%;
+        transition: transform 0.5s ease;
+    }
+    
+    .portfolio-box:hover img {
+        transform: scale(1.1);
+    }
+    
+    
+
+    .contact {
+        align-items: center;
+        text-align: center;
+        
+        color: white;
+        padding: 4rem;
+        
+        
+    }
+    
+    .contact {
+        text-align: center;
+        padding: 50px;
+        color: white;
+        
+    }
+    
+    /* Form Container */
+    .contact form {
+        max-width: 600px;
+        margin: auto;
+        background: transparent;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    
+    /* Input Fields Styling */
+    .input-box {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+    
+    .input-box input,
+    textarea {
+        width: 100%;
+        padding: 11px;
+        font-size: 2rem;
+        border: none;
+        border-radius: 8px;
+        background: #28314b; /* Dark background */
+        color: white;
+        outline: none;
+    }
+    
+    .input-box input::placeholder,
+    textarea::placeholder {
+        color: #dfd7d7;
+    }
+    
+    /* Textarea Styling */
+    textarea {
+        resize: none;
+        height: 100px;
+    }
+    .btn{
+        margin-top: 1rem;
+    
     }
 
 
